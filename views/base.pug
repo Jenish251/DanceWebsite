@@ -1,0 +1,23 @@
+//- Base File
+doctype html
+html
+  head
+    title Shakti Dance Academy
+    block style 
+        //- include ../static/style.css
+    //- block scripts
+    //-   script(src='/jquery.js')
+  body
+    nav.navigation 
+        ul.nav 
+            div#logo 
+                img(src="static/mainlogo.png", alt="Logo")
+                p SDA
+            li #[a(class="f" href='/') Home] 
+            li #[a(href='/') About ]
+            li #[a(href='/') Courses ]
+            li #[a(href='/') Services]
+            li #[a(href='/contact') Contact ]
+    block content
+    footer.last
+        | Copyright © Shakti Dance Academy 

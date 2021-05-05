@@ -1,0 +1,40 @@
+extends base.pug
+
+block style
+    style 
+        include ../static/style.css
+
+block content
+    
+    section.middle 
+        .cmn 
+            h1 Welcome To Shakti Dance Class
+            h2 Eat Sleep Dance Repeat    
+            
+    section.logo  
+        h2 Our Mission   
+        .container 
+            .m  
+                p Type 1
+                .c#c1  
+                    img(src="static/1.png", alt="img")
+                    p The Hip Hop Dance
+            
+            .m 
+                p Type 2
+                .c#c2
+                    img(src="static/2.png", alt="img")
+                    p The Classical Dance
+            .m   
+                p Type 3
+                .c#c3
+                    img(src="static/3.png", alt="img")
+                    p The Couple Dance
+
+    section.lower 
+        | Our Sponsers
+        .sponsers
+            img(src="static/sponser1.png", alt="Sponser") 
+            img(src="static/sponser2.png", alt="Sponser") 
+            img(src="static/sponser3.png", alt="Sponser") 
+            img(src="static/sponser4.png", alt="Sponser")
